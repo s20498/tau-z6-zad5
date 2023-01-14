@@ -15,11 +15,6 @@ class MessengerTest {
 
     private static Messenger messenger;
 
-    @BeforeAll
-    static void setUp() {
-
-    }
-
     @Test
     void test_send_message_successful() {
         // given
